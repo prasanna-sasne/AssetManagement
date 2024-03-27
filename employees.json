@@ -1,0 +1,46 @@
+[
+  {
+    "Assigned to": "John Smith",
+    "Department": "Administration",
+    "Location": "415C",
+    "Phone": "518-123-4567",
+    "Email": "jsmith123@albany.edu",
+    "Asset Tag": "CL123543",
+    "Category": "Laptop Computer",
+    "Purchase Date": "April 1, 2023",
+    "Description": "HP ZBook Firefly G23"
+  },
+  {
+    "Assigned to": "Jane Doe",
+    "Department": "Finance",
+    "Location": "302B",
+    "Phone": "518-987-6543",
+    "Email": "jdoe456@albany.edu",
+    "Asset Tag": "CL987654",
+    "Category": "Desktop Computer",
+    "Purchase Date": "March 15, 2023",
+    "Description": "Dell OptiPlex 7070"
+  },
+  {
+    "Assigned to": "Rohan Johnson",
+    "Department": "Research",
+    "Location": "210A",
+    "Phone": "518-555-7890",
+    "Email": "rjohnson789@albany.edu",
+    "Asset Tag": "CL567890",
+    "Category": "Tablet",
+    "Purchase Date": "February 10, 2024",
+    "Description": "iPad Pro 12.9-inch"
+  },
+  {
+    "Assigned to": "Emily Wish",
+    "Department": "Marketing",
+    "Location": "601D",
+    "Phone": "518-222-3333",
+    "Email": "ewish222@albany.edu",
+    "Asset Tag": "CL222333",
+    "Category": "Mobile Phone",
+    "Purchase Date": "May 5, 2023",
+    "Description": "Samsung Galaxy S21"
+  }
+]
