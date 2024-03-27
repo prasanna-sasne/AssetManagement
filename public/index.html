@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Dynamic web page displaying employee records and providing a form for adding new ones, compliant with WCAG 2.1 AA.">
+  <title>Employee Records</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div>
+    <div class="header">
+      <h1>Employee Records</h1>
+      <button id="add-employee">Add New Employee</button>
+    </div>
+    <table id="employee-table"></table>
+
+    <div id="employee-form">
+      <h2>Add New Employee</h2>
+      <form id="add-employee-form">
+        <div class="form-row">
+          <div>
+            <label for="assigned-to">Assigned to:</label>
+            <input type="text" id="assigned-to" name="assigned-to" placeholder="Assigned to" required>
+          </div>
+          <div>
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" placeholder="Computer Science" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="20D" required>
+          </div>
+          <div>
+            <label for="phone">Phone:</label>
+            <input type="number" id="phone" name="phone" required title="Phone number">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@albany.com" required
+              title="Please enter a valid albany.com email address">
+          </div>
+          <div>
+            <label for="asset-tag">Asset Tag:</label>
+            <input type="text" id="asset-tag" name="asset-tag" required placeholder="CL222333">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category" placeholder="Category" required>
+          </div>
+          <div>
+            <label for="purchase-date">Purchase Date:</label>
+            <input type="date" id="purchase-date" name="purchase-date" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div>
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" placeholder="Description" required>
+          </div>
+        </div>
+
+        <button type="submit">Add Employee</button>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </div>
+</body>
+
+</html>
