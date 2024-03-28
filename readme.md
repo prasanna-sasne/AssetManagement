@@ -11,3 +11,4 @@ Steps to run the project:
 2. Run `npm install` to install the dependencies: Once Node.js is installed, navigate to the project directory in your terminal/command prompt and run npm install. This command will read the package.json file in your project directory and install all the dependencies listed there. 
 
 3. Run `npm run start` to run the project: After installing the dependencies, you can start the project by running npm run start.
+4. Open the browser and check the loaded web page navigate to `http://localhost:3000/`
